@@ -1,5 +1,4 @@
 /* Estilos Generales */
-
 .main-container {
   margin: 20px;
 }
@@ -47,10 +46,6 @@ body {
 
 .nav-link:hover{
   text-decoration: none;
-  color: black;
-}
-
-.active{
   color: black;
 }
 

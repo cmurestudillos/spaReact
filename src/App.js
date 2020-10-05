@@ -1,13 +1,22 @@
 import React from 'react';
-import './App.css';
-
+// Estilos
+import 'bootstrap/dist/css/bootstrap.min.css';
 // Rutas
 import Router from './routes/Router';
+// Componentes Comunes
+import Header from "./components/shared/header/Header";
+import Footer from "./components/shared/footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <Router />  
+    <div>
+      {/* Cabecera */}
+      <Header />  
+        <div className="container main-container"> 
+          <Router />  
+        </div>
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
